@@ -595,10 +595,11 @@ export const fridgeFiveRows: BottleDefinition[][] = [
       alternateId: "erdinger-0",
       image: require("../assets/erdinger.png"),
     },
-    { id: "boerken", name: "Boerken", image: require("../assets/boerken.png") },
     {
-      id: "boerinneken",
-      name: "Boerinneken",
+      id: "boerken",
+      name: "Boerken",
+      alternateName: "Boerinneken",
+      alternateId: "boerinneken",
       image: require("../assets/boerken.png"),
     },
     {
@@ -622,12 +623,9 @@ export const fridgeFiveRows: BottleDefinition[][] = [
     },
     {
       id: "hete-klinke",
-      name: "Hete Klinke",
-      image: require("../assets/hete klinke.png"),
-    },
-    {
-      id: "hete-klote",
-      name: "Hete Klote",
+      name: "Klootzak",
+      alternateName: "Hete Klinke",
+      alternateId: "hete-klote",
       image: require("../assets/hete klinke.png"),
     },
     {
@@ -670,7 +668,7 @@ export const fridgeFiveRows: BottleDefinition[][] = [
       name: "Nettebuk",
       alternateName: "Floreffe",
       alternateId: "floreffe",
-      image: require("../assets/boerken.png"),
+      image: require("../assets/floreffe.png"),
     },
     {
       id: "seef",
@@ -777,12 +775,9 @@ export const fridgeFiveRows: BottleDefinition[][] = [
     {
       id: "la-trap-wit",
       name: "La Trappe Wit",
+      alternateName: "Rochefort Tripel",
+      alternateId: "rochefort-tripel",
       image: require("../assets/la trap wit.png"),
-    },
-    {
-      id: "rochefort-tripel",
-      name: "Rochefort Tripel",
-      image: require("../assets/roche_10.png"),
     },
   ],
   [
